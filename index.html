@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="full_index">
+            <div class="welcome_msg">Welcome to Tic-Tac-Toe</div>
+            <div class="play_option_index">
+                <button id="start_game">Start Game</button>
+            </div>
+        </div>
+    </main>
+    <script>
+        let start_game=document.getElementById('start_game');
+        start_game.addEventListener('click',()=>{
+            location.href="menu.html";
+        });
+    </script>
+</body>
+</html>

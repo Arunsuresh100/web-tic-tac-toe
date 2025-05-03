@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="full_menu">
+            <div class="player_info_heading">Player Details</div>
+            <div class="player_info">
+                <div class="inp">
+                    <form action="">
+                    <div class="inp1">
+                        <label for="name1">Player 1:</label><input type="text" name="name1" id="name1" placeholder="Enter player1 name" required><span id="req_msg1"> ! </span>
+                    </div>
+                    <div class="inp2">
+                        <label for="">Choose Color:</label>
+                        <span>Blue</span>
+                        <input type="radio" name="player1_color_option" id="blue_option1" value="Blue">
+                        <span>Red</span>
+                        <input type="radio" name="player1_color_option" id="red_option1" value="Red" checked>
+                        <span>Green</span>
+                        <input type="radio" name="player1_color_option" id="green_option1" value="Green">
+                    </div>
+                </div>
+                <div class="inp">
+                    <div class="inp1">
+                    <label for="name2">Player 2:</label><input type="text" name="name2" id="name2" placeholder="Enter player2 name" required><span id="req_msg2"> ! </span>
+                    </div>
+                    <div class="inp2">
+                    <label for="">Choose Color:</label>
+                    <span>Blue</span>
+                    <input type="radio" name="player2_color_option" id="blue_option2" value="Blue">
+                    <span>Red</span>
+                    <input type="radio" name="player2_color_option" id="red_option2" value="Red">
+                    <span>Green</span>
+                    <input type="radio" name="player2_color_option" id="green_option2" value="Green" checked>
+                    </div>
+                </div>
+            </form>
+                <div class="play_button">
+                <button id="game_start_play">Play</button><button onclick="location.href='index.html';">Back</button>
+                </div>
+            </div>
+            <div class="msg_menu" id="msg_menu">Make sure the Field are filled !</div>
+        </div>
+    </main>
+    <script src="play.js"></script>
+</body>
+</html>
