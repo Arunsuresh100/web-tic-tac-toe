@@ -4,7 +4,8 @@
 }
 body{
 /*     background: linear-gradient(135deg, #0e3b38, #0a4052, #4d1458); */
-    background: linear-gradient(135deg, #3a6e6b, #3a738f, #7c3a7b);
+/*     background: linear-gradient(135deg, #3a6e6b, #3a738f, #7c3a7b); */
+    background-color:black;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     height:100vh;
